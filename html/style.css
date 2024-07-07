@@ -1,0 +1,114 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            overflow: hidden;
+            color: white; /* Text color for nav links */
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #ddd;
+            color: black;
+        }
+
+        .quiz-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .quiz-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .question {
+            width: 60%; /* Adjust as needed */
+            font-weight: bold;
+        }
+
+        .options {
+            width: 60%; /* Adjust as needed */
+            margin-top: 10px; /* Space between question and options */
+        }
+
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .quiz-item img {
+            width: 200px; /* Adjust image width */
+            height: auto;
+            border-radius: 8px;
+            margin-left: auto; /* Align image to the right */
+            display: block;
+        }
+
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #34495e; /* Updated footer background color */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling for Goal.com link */
+        footer a.goal-link {
+            color: red; /* Red color */
+        }

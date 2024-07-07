@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer: The Beautiful Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>       
+    
+</head>
+<body>
+    <header>
+        <h1>Soccer: The Beautiful Game</h1>
+    </header>
+    <nav>
+        <a href="overveiw.html">Game Overview</a>
+        <a href="highlight.html">Game Highlights</a>
+        <a href="gstart.html">How to Get Started</a>
+    </nav>
+
+    <div class="quiz-container">
+        <div id="quiz">
+            <div class="quiz-item">
+                <div class="question">
+                    <p>Question 1: Who won the FIFA World Cup in 2018?</p>
+                </div>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="a"> a) Germany</label>
+                    <label><input type="radio" name="q1" value="b"> b) France</label>
+                    <label><input type="radio" name="q1" value="c"> c) Brazil</label>
+                </div>
+                <img src="ball.jpg.webp" alt="2018 FIFA World Cup">
+            </div>
+
+            <div class="quiz-item">
+                <div class="question">
+                    <p>Question 2: Which country hosted the first FIFA World Cup?</p>
+                </div>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="a"> a) England</label>
+                    <label><input type="radio" name="q2" value="b"> b) Uruguay</label>
+                    <label><input type="radio" name="q2" value="c"> c) Italy</label>
+                </div>
+                <img src="foot.webp" alt="1930 FIFA World Cup">
+            </div>
+
+            <!-- New Question -->
+            <div class="quiz-item">
+                <div class="question">
+                    <p>Question 3: What is the nickname of Brazil's national soccer team?</p>
+                </div>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="a"> a) The Blues</label>
+                    <label><input type="radio" name="q3" value="b"> b) The Seleção</label>
+                    <label><input type="radio" name="q3" value="c"> c) The Reds</label>
+                </div>
+                <img src="images-3.jpeg" alt="Brazil National Team">
+            </div>
+            
+            <button onclick="submitQuiz()">Submit Quiz</button>
+            <div class="result" id="quiz-result"></div>
+        </div>
+    </div>
+
+    <footer>
+        Designed by Lakshmanlomisa. For more information visit <a class="goal-link" href="https://www.goal.com/en-in/live-scores" target="_blank">Goal.com</a>.
+    </footer>
+
+    
+</body>
+</html>
